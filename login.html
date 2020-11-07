@@ -1,0 +1,80 @@
+<HTML>
+<head>
+<tittle>this is my site</tittle>
+<link rel="stylesheet" href="form.css">
+
+</head>
+<body> 
+    <div class="container">
+
+       <div class="form-box">
+      
+         <div class="button-box">    
+            <div id="btn"> </div>
+             <button type="button" class="toggle-btn" onclick="login()">LOGIN</button>
+             <button type="button" class="toggle-btn" onclick="register()">registe </button>
+         </div>
+
+
+        <form id="login" class="input-group>
+                  
+         <input type="password class="input-field" placeholder="Enter password" required> 
+         <input type="checkbox" class="check-box"> <span>Remember password </span>
+         <button type="submit" class="submit-btn"> LOGIN </button>
+
+       </form>
+
+
+        <form id="register" class="input-group>
+         
+         <input type="textclass="input-field" placeholder="Enter username" required>  
+          <input type="text" class="input-field" placeholder="Enter email" required>  
+         <input type="password" class="input-field" placeholder="Enter password" required> 
+         <input type="checkbox" class="check-box"> <span>i agree with the terms & conditions</span>
+         <button type="submit" class="submit-btn"> Register</button>
+
+       </form>
+
+
+
+       </div>
+
+   </div>
+
+    <script>
+         var x = document.getElementById("login");
+         var y = document.getElementById("register");
+         var z= document.getElementById("btn");
+
+
+      function register(){
+     x.stye.left = "-400px";
+     y.stye.left = "50px";
+     z.stye.left = "110px";
+}
+
+
+function login(){
+     x.stye.left = "50x";
+     y.stye.left = "450px";
+     z.stye.left = "0";
+}
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
